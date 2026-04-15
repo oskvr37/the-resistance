@@ -1,14 +1,6 @@
-# info
+# the resistance
 
 this project is not finished 100% but the game is playable
-
-# installation
-
-- fill out the .env file (example environment variables are at .env.example)
-
-- run `docker compose up`
-
-# "the resistance" game
 
 this is web game based on "the resistance" rules.
 
@@ -22,6 +14,19 @@ players go on mission - if they are spy - they can fail the mission.
 agents role is to find the spies and not nominate them to missions.
 spies must stay hidden and fail 3 missions.
 after 5 rejected team nominations, the hammer falls and agents lose.
+
+<p align="center">
+  <img src="docs/demo/lobby.png" width="600">
+  <img src="docs/demo/game_nomination.png" width="600">
+  <img src="docs/demo/game_voting.png" width="600">
+  <img src="docs/demo/game_mission.png" width="600">
+</p>
+
+# installation
+
+- fill out the .env file (example environment variables are at .env.example)
+
+- run `docker compose up`
 
 # tech stack
 
