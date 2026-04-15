@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+  @apply bg-zinc-900 text-zinc-100;
+}
+
+main {
+  @apply flex flex-col items-center w-full justify-center gap-8 p-4 max-w-180 mx-auto;
+}
+
+button {
+  @apply border border-zinc-600 rounded text-zinc-400 px-2 py-1 font-mono uppercase font-light text-sm;
+  @apply hover:cursor-pointer hover:opacity-80;
+  @apply disabled:opacity-50 disabled:cursor-auto;
+  @apply transition-opacity;
+}
+
+input {
+  @apply border border-zinc-600 rounded text-zinc-400 px-4 py-0.5;
+}
