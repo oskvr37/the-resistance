@@ -2,6 +2,13 @@
 
 this project is not finished 100% but the game is playable
 
+<p align="center">
+  <img src="docs/demo/lobby.png" width="600">
+  <img src="docs/demo/game_nomination.png" width="600">
+  <img src="docs/demo/game_voting.png" width="600">
+  <img src="docs/demo/game_mission.png" width="600">
+</p>
+
 # installation
 
 - fill out the .env file (example environment variables are at .env.example)
